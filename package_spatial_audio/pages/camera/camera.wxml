@@ -1,0 +1,23 @@
+<!--后退按钮-->
+<cover-view 
+    bindtap="backBtn_callback"   
+    style="position:absolute;margin-left:10px;margin-top:{{menuButtonTop}}px;">
+    <!--后退按钮图标-->
+    <cover-image 
+        style="width:{{menuButtonHeight}}px;height:{{menuButtonHeight}}px;" 
+        src="/assets/back.png">
+    </cover-image>
+</cover-view>
+
+<canvas
+        id="canvas1"
+        class="canvas1"
+        type="webgl"
+        disable-scroll = "true"
+        bindtouchend="bindtouchend_callback">
+        <!--
+        <cover-view class="cover-view">
+        </cover-view>    
+        -->     
+</canvas>
+

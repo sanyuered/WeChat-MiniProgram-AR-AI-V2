@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subpackages": [
+    {
+      "root": "package_world_track",
+      "pages": [
+        "pages/camera/camera"
+      ]
+    },
+    {
+      "root": "package_measure",
+      "pages": [
+        "pages/camera/camera"
+      ]
+    },
+    {
+      "root": "package_motion_track",
+      "pages": [
+        "pages/camera/camera"
+      ]
+    },
+    {
+      "root": "package_spatial_audio",
+      "pages": [
+        "pages/camera/camera"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序AR v2",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
